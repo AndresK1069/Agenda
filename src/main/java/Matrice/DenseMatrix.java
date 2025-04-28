@@ -26,7 +26,7 @@ public class DenseMatrix {
     public int doubleget(int nRows, int nCols) {
         int row = nRows;
         int col = nCols;
-        return row * col;
+        return  col;
     }
 
     public int set(int i, int j, double aji) {
